@@ -1,4 +1,4 @@
-<script>
+
 var bszCaller, bszTag;
 !function() {
     var c, d, e, a = !1, b = [];
@@ -99,4 +99,3 @@ bszTag = {
             })
         }
     };
-</script>
