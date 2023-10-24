@@ -1,4 +1,4 @@
-const myDiv = document.getElementById('myDiv');
+
 
 
   const style = document.createElement('style');
