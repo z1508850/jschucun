@@ -28,7 +28,7 @@ const myDiv = document.getElementById('myDiv');
       
       const { clientWidth, clientHeight } = document.documentElement;
       barrage.style.left = `${clientWidth / 2}px`;
-      barrage.style.top = `${clientHeight / 4.5}px`;
+      barrage.style.top = `${clientHeight / 6}px`;
 
       setTimeout(() => {
         document.body.removeChild(barrage); 
