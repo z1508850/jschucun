@@ -8,7 +8,7 @@ const myDiv = document.getElementById('myDiv');
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background-color: #dae0e880;
+        background-color: #ffffffe6;
         color: #333;
         padding: 10px 20px;
         border-radius: 5px;
@@ -28,7 +28,7 @@ const myDiv = document.getElementById('myDiv');
       
       const { clientWidth, clientHeight } = document.documentElement;
       barrage.style.left = `${clientWidth / 2}px`;
-      barrage.style.top = `${clientHeight / 4}px`;
+      barrage.style.top = `${clientHeight / 4.5}px`;
 
       setTimeout(() => {
         document.body.removeChild(barrage); 
