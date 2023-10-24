@@ -38,7 +38,7 @@
     event.preventDefault(); 
 
     const barrage = document.createElement('span');
-    barrage.innerHTML = '<span class="barrage-icon"></span>为了您更好的游览体验，本站禁用右键。复制请使用 Ctrl+C';
+    barrage.innerHTML = '<span class="barrage-icon"></span>为了您更好的游览体验，本站禁用右键。复制卡密请左键选中后 Ctrl+C';
     barrage.classList.add('barrage');
     document.body.appendChild(barrage);
 
