@@ -61,7 +61,9 @@
       document.body.addEventListener('contextmenu', showBarrage);
     }
   }
-
+document.oncontextmenu = function (e) {
+        return true;
+    }
 
   updateBarrageDisplay();
 
